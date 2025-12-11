@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Festividades de Fim de Ano</title>
+  <meta name="description" content="Ideias, tradições, receitas e decorações para as festividades de fim de ano.">
+  <meta name="keywords" content="Natal, Ano Novo, decorações, receitas, festividades">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle fill='%23c62828' cx='50' cy='50' r='45'/%3E%3Ctext x='50' y='57' font-size='42' text-anchor='middle' fill='white' font-family='sans-serif'%3E%F0%9F%8E%84%3C/text%3E%3C/svg%3E">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+  <div id="snow"></div>
+  <header class="site-header">
+    <div class="brand">
+      <h1><span class="cursive">Festas</span> de Fim de Ano</h1>
+      <p class="subtitle">Inspire. Decore. Celebre.</p>
+    </div>
+    <button id="hambtn" class="hambtn" aria-label="Abrir menu">&#9776;</button>
+    <nav id="mainnav" class="mainnav">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="celebracoes.html">Celebrações</a></li>
+        <li><a href="personalidades.html">Personagens</a></li>
+        <li><a href="organizacao.html">Organização</a></li>
+        <li><a href="videos.html">Vídeos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Explore tradições, receitas e ideias para um fim de ano inesquecível</h2>
+        <p>Decorações, pratos típicos, atividades em família e muito espírito natalino.</p>
+      </div>
+      <div class="lights" aria-hidden="true">
+        <span class="light"></span><span class="light"></span><span class="light"></span>
+        <span class="light"></span><span class="light"></span>
+      </div>
+    </section>
+
+    <section class="cards">
+      <article class="card" onclick="location.href='organizacao.html'">
+        <img src="imagens/decoracao.JPG" alt="Decorações e Ambientes">
+        <h3>Decorações & Ambientes</h3>
+        <p>Ideias DIY, iluminação criativa e mesas temáticas para encantar sua família.</p>
+      </article>
+
+      <article class="card" onclick="location.href='celebracoes.html'">
+        <img src="imagens/tradicao.JPG" alt="Tradições e Celebrações">
+        <h3>Tradições & Celebrações</h3>
+        <p>Rituals de Ano-Novo, costumes de Natal e festivais regionais.</p>
+      </article>
+    </section>
+
+    <aside class="related">
+      <h4>Conteúdos rápidos</h4>
+      <ul>
+        <li>Ideias rápidas de decoração econômica</li>
+        <li>Como montar a mesa de fim de ano</li>
+        <li>Dicas para confraternizações em família</li>
+        <li>Segurança com fogos e iluminação</li>
+      </ul>
+    </aside>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Equipe FestasFimdeAno - <span id="year"></span></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
